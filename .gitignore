@@ -1,0 +1,42 @@
+# Arquivos de configuração de banco de dados
+*.sql
+
+# Backups do banco de dados
+*.bak
+*.backup
+*.dump
+
+# Logs do MySQL
+mysql.log
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Arquivos de sistema do macOS
+.DS_Store
+
+# Arquivos de sistema do Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Arquivos gerados pelo ambiente de desenvolvimento
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Diretório de ambiente virtual Python (caso use scripts Python)
+venv/
+env/
+__pycache__/
+
+# Arquivos de log e debug
+*.log
+*.out
+*.err
+
+# Credenciais sensíveis
+*.env
+.env.*
